@@ -2045,3 +2045,28 @@ header .back-button i {
     opacity: 0;
 }
 
+@media (max-width: 767px) {
+  .section-home .banner-text .text-slideshow .animate-title {
+    font-size: 18px;
+  }
+  .testimonial-review{
+	padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+	text-align: center;
+  }
+  .section-resume .skills {
+	margin-bottom: 50px;
+  }
+  .portfolio-items{
+	margin-bottom: 50px;
+  }
+  .section-contact .google-map{
+	margin-bottom: 70px;
+  }
+
+}
+
+
